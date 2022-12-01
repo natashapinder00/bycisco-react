@@ -1,7 +1,8 @@
 import React from "react";
 import './App.css';
-
+import Carousel from "./Carousel"
 import Navv from "./Navv";
+
 
 
 
@@ -14,8 +15,6 @@ function App() {
       
        <div className="background">
         
-     
-          
      <Navv />
 
      <h1> "You can check in but you can never check out" </h1>
@@ -28,6 +27,7 @@ function App() {
       <header className="App-header">
       
       </header>
+      <Carousel />
     </div>
   );
 }
