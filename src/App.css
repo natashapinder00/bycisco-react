@@ -17,6 +17,10 @@
 
 }
 
+.button {
+  text-align: center;
+}
+
 h1 {
   text-align: center;
     font-family: 'Brittany Signature',
@@ -24,6 +28,17 @@ h1 {
         color: #FFFFFF;           
         
 }
+
+h2 {
+    text-align: center;
+      font-family: 'Brittany Signature',
+        sans-serif;
+      color:#BB9983;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+      font-size: 40px;
+}
+
 /*
 App {
   text-align: center;
