@@ -20,8 +20,8 @@ function App() {
      <Navv />
 
      <h1> "You can check in but you can never check out" </h1>
-     <div className="button">
-       <Button variant="light">Get In Touch</Button>{' '}
+     <div className="position-absolute top-50 start-50 translate-middle">
+       <Button variant="btn btn-outline-dark" size="lg">Get In Touch</Button>{' '}
     </div>  
  </div>
 
