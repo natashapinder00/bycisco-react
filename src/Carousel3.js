@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
-import Boat from "./images/boat.jpg";
+import Yacht from "./images/yacht.jpg";
 import Boat2 from "./images/boat2.jpg";
 import Boat4 from "./images/boat4.png";
 
@@ -15,7 +15,7 @@ function UncontrolledExample() {
       
           <img
           className="d-block w-100"
-          src={Boat}
+          src={Yacht}
           alt="First slide"
         />
         

@@ -34,22 +34,34 @@ function App() {
       <header className="App-header">
       
       </header>
-     
+   
       <Row>
        
         <Col><Carousel /></Col>
-        <Col></Col>
+       
+        <Col>  <div className="col-text"> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
+
+We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
+
+At ByCisco we curate every aspect of your holiday so you don't have to. Sit back, relax, party and enjoy. 
+</div> </Col> 
       </Row>
      
     
        <Row>
-        <Col></Col>
-        <Col><Carousel2 /></Col>
+        <Col> <div className="col-text">ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
+
+So whether you dream of being right on the beach, having spectacular sea views, or relaxing in pure seclusion in the countryside, we have the perfect villa for you.
+ </div></Col>
+       <Col><Carousel2 /></Col>
       </Row>
    
        <Row>
         <Col><Carousel3 /></Col>
-        <Col></Col>
+        <Col> <div className="col-text">There is no better way to experience Ibizas coastline, pristine beaches and sparkling Mediterranean waters than by boat.
+
+ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From fast boats for a day of exploring, to Yachts where you can enjoy infinite days of bliss.
+</div> </Col>
       </Row>
     
       

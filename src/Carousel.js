@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
-import Boat from "./images/boat.jpg";
+import Island2 from "./images/island2.png";
 import Plane from "./images/plane.png";
-import Esvedra from "./images/esvedra.jpg";
+import Ocean from "./images/ocean.png";
 
 function UncontrolledExample() {
   return (
@@ -25,7 +25,7 @@ function UncontrolledExample() {
         
         <img
           className="d-block w-100"
-          src={Esvedra}
+          src={Island2}
           alt="Second slide"
         />
       </Carousel.Item>
@@ -34,7 +34,7 @@ function UncontrolledExample() {
       
         <img
           className="d-block w-100"
-          src={Boat}
+          src={Ocean}
           alt="Third slide"
         />
 

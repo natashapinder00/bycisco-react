@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
 import Boat from "./images/boat.jpg";
-import Villa2 from "./images/villa2.png";
+import Villa3 from "./images/villa3.png";
 import Villa from "./images/Villa.jpg";
 import Villa4 from "./images/villa4.png";
 
@@ -16,7 +16,7 @@ function UncontrolledExample() {
       
           <img
           className="d-block w-100"
-          src={Villa2}
+          src={Villa3}
           alt="First slide"
         />
         
