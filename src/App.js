@@ -1,8 +1,12 @@
 import React from "react";
 import './App.css';
-import Carousel from "./Carousel"
+import Carousel from "./Carousel";
+import Carousel2 from "./Carousel2";
+import Carousel3 from './Carousel3';
 import Navv from "./Navv";
 import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 
@@ -30,7 +34,25 @@ function App() {
       <header className="App-header">
       
       </header>
-      <Carousel />
+     
+      <Row>
+       
+        <Col><Carousel /></Col>
+        <Col></Col>
+      </Row>
+     
+    
+       <Row>
+        <Col></Col>
+        <Col><Carousel2 /></Col>
+      </Row>
+   
+       <Row>
+        <Col><Carousel3 /></Col>
+        <Col></Col>
+      </Row>
+    
+      
     </div>
   );
 }

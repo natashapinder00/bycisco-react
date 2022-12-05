@@ -2,8 +2,9 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
 import Boat from "./images/boat.jpg";
-import Plane from "./images/plane.png";
-import Esvedra from "./images/esvedra.jpg";
+import Villa2 from "./images/villa2.png";
+import Villa from "./images/Villa.jpg";
+import Villa4 from "./images/villa4.png";
 
 function UncontrolledExample() {
   return (
@@ -15,7 +16,7 @@ function UncontrolledExample() {
       
           <img
           className="d-block w-100"
-          src={Plane}
+          src={Villa2}
           alt="First slide"
         />
         
@@ -25,7 +26,7 @@ function UncontrolledExample() {
         
         <img
           className="d-block w-100"
-          src={Esvedra}
+          src={Villa}
           alt="Second slide"
         />
       </Carousel.Item>
@@ -34,7 +35,7 @@ function UncontrolledExample() {
       
         <img
           className="d-block w-100"
-          src={Boat}
+          src={Villa4}
           alt="Third slide"
         />
 
