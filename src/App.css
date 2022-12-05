@@ -1,6 +1,6 @@
 
 @import url('https://fonts.cdnfonts.com/css/brittany-signature');
-@import url('https://fonts.cdnfonts.com/css/lato-hairline');
+@import url('https://fonts.cdnfonts.com/css/lato-light');
 
 .background {
   background-image: url("images/ibiza.jpeg");
@@ -47,12 +47,11 @@ h2 {
   margin-right: 6rem;
   letter-spacing: 1.5px;
   font-size: 20px;
-  font-family: 'Lato Hairline' 350;
-
-
-
+  font-family: 'Lato Light', sans-serif;
 
 }
+
+
 
 /*
 App {

@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-
 import Island2 from "./images/island2.png";
 import Plane from "./images/plane.png";
 import Ocean from "./images/ocean.png";
