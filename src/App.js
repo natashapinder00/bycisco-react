@@ -40,7 +40,7 @@ function App() {
        
         <Col lg={true}> <Carousel /></Col>
        
-        <Col >  <div className="col-text"> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
+        <Col>  <div className="col-text"> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
 
 We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
 
@@ -50,17 +50,17 @@ At ByCisco we curate every aspect of your holiday so you don't have to. Sit back
      
     
        <Row>
-        <Col> <div className="col-text">ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
+        <Col lg={{order:1}} xs={{ order: 4 }}> <div className="col-text">ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
 
 So whether you dream of being right on the beach, having spectacular sea views, or relaxing in pure seclusion in the countryside, we have the perfect villa for you.
  </div></Col>
-       <Col lg={true}><Carousel2 /></Col>
+       <Col lg={true}xs={{ order: 3}}><Carousel2 /></Col>
       </Row>
    
        <Row>
         
         <Col lg={true}><Carousel3 /></Col>
-        <Col> <div className="col-text">There is no better way to experience Ibizas coastline, pristine beaches and sparkling Mediterranean waters than by boat.
+        <Col lg={true}> <div className="col-text">There is no better way to experience Ibizas coastline, pristine beaches and sparkling Mediterranean waters than by boat.
 
 ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From fast boats for a day of exploring, to Yachts where you can enjoy infinite days of bliss.
 </div> </Col>
@@ -76,7 +76,7 @@ You might know exactly where you want to dine, if not, let us inspire you. If yo
 <br/>
 YOGA<br/>
 We have a selection of private yoga instructors, hand picked to suit your wants and needs.
-<Col lg={true}>
+
   
 NIGHTLIFE<br/>
 DC10, Hi, Ushuaia, Pacha, Amnesia and Destino, you name it. We will organise your entire night for the ultimate VIP experience.
@@ -86,9 +86,11 @@ Our first-class chefs use the best suppliers on the island and aim to meet you e
 <br/>
 NANNIES<br/>
 All nannies have top qualifications paired with the utmost dedication to the children they care for at all times.
-</Col></div> </Col><Col lg={true}><Carousel3 /></Col>
-      </Row>
+
+</div></Col> 
+<Col lg={true} xs={{ order: 3}}><Carousel3 /> </Col> 
       
+    </Row>
     </div>
   );
 }
