@@ -10,6 +10,7 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 function App() {
   return (
     <div className="App">
@@ -90,10 +91,10 @@ All nannies have top qualifications paired with the utmost dedication to the chi
     </Row>
     <div className="contact">
       <p> Get In Touch... </p> </div>
-   
+ 
     </div>
 
-      
+    
   );
 }
 
