@@ -13,6 +13,10 @@ import Col from 'react-bootstrap/Col';
 
 
 
+
+
+
+
                 
 
 
@@ -30,7 +34,7 @@ function App() {
     </div>  
  </div>
 
-   <h2>More Than a Concierge Service</h2>
+   <p>More Than a Concierge Service</p>
 
       <header className="App-header">
       
@@ -91,7 +95,11 @@ All nannies have top qualifications paired with the utmost dedication to the chi
 <Col lg={true} xs={{ order: 3}}><Carousel3 /> </Col> 
       
     </Row>
+      <p> Get In Touch... </p>
+     
     </div>
+
+      
   );
 }
 
