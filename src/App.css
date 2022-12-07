@@ -25,6 +25,7 @@
   border-width: 0.12rem;
   font-size: 25px;
   font-family: 'Lato Light', sans-serif;
+  font-weight: 600;
 }
 
 .caption {
@@ -59,7 +60,7 @@
 
 }
 .col-text {
-  margin-top: 8rem;
+  margin-top: 6rem;
   margin-left: 6rem;
   margin-bottom: 4rem;
   margin-right: 10rem;
@@ -70,8 +71,21 @@
 
 }
 
+.col-text-2 {
+    margin-top: 4rem;
+      margin-left: 6rem;
+      margin-bottom: 4rem;
+      margin-right: 10rem;
+      letter-spacing: 1.5px;
+      line-height: 2rem;
+      font-size: 20px;
+      font-family: 'Lato Light', sans-serif;
+}
 
-
+h1 {
+  font-size: 30px;
+    font-family: 'Lato Light', sans-serif;
+}
 /*
 App {
   text-align: center;
