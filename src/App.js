@@ -9,17 +9,6 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
-
-
-
-
-
-
-
-                
-
-
 function App() {
   return (
     <div className="App">
@@ -27,14 +16,17 @@ function App() {
        <div className="background">
         
      <Navv />
+<div className="caption">
+     <p> "You can check in <br/> but you can never check out" </p></div>
 
-     <h1> "You can check in but you can never check out" </h1>
-     <div className="position-absolute top-50 start-50 translate-middle">
-       <Button variant="btn btn-outline-dark" size="lg">Get In Touch</Button>{' '}
+
+     <div className="position-absolute start-50 translate-middle">
+       <Button variant="outline-light" size="lg">Get In Touch</Button>{' '}
     </div>  
- </div>
+</div>
 
-   <p>More Than a Concierge Service</p>
+ <div className="contact">
+   <p>More Than a Concierge Service</p></div>
 
       <header className="App-header">
       
@@ -44,7 +36,7 @@ function App() {
        
         <Col lg={true}> <Carousel /></Col>
        
-        <Col>  <div className="col-text"> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
+        <Col>  <div className="col-text-1"> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
 
 We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
 
@@ -72,7 +64,7 @@ ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From f
      <Row>
         
         
-        <Col> <div className="col-text">TRANSPORT<br/>
+        <Col xs={{ order: 5 }}> <div className="col-text">TRANSPORT<br/>
 Booking an Ibiza Chauffeur is a must in high season. Let us do the organising for you so you can enjoy a hassle-free vacation.
 <br/>
 RESTAURANTS<br/>
@@ -95,8 +87,9 @@ All nannies have top qualifications paired with the utmost dedication to the chi
 <Col lg={true} xs={{ order: 3}}><Carousel3 /> </Col> 
       
     </Row>
-      <p> Get In Touch... </p>
-     
+    <div className="contact">
+      <p> Get In Touch... </p> </div>
+   
     </div>
 
       
