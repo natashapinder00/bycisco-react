@@ -27,7 +27,7 @@
 .btn {
   margin-top: 15rem;
   border-radius: 0rem;
-  border-width: 0.12rem;
+  border-width: 0.1rem;
   font-size: 25px;
   font-family: 'Lato Light', sans-serif;
   font-weight: 600;
@@ -90,6 +90,19 @@
 h1 {
   font-size: 30px;
     font-family: 'Lato Light', sans-serif;
+}
+
+
+.icons {
+
+font-size: 40px;
+color: #BB9983;
+text-align: center;
+padding-bottom: 5rem;
+}
+
+.icons a:hover {
+  color: orange;
 }
 /*
 App {

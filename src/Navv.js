@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "./images/logo.png"
-
+import logo2 from "./images/logo2.png"
 
 function BrandExample() {
   return (

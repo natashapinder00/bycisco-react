@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-
 import Carousel from "./Carousel";
 import Carousel2 from "./Carousel2";
 import Carousel3 from './Carousel3';
@@ -9,6 +8,13 @@ import Navv from "./Navv";
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { FaEnvelope } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebookSquare } from 'react-icons/fa';
+
+
+
+
 
 
 function App() {
@@ -16,7 +22,7 @@ function App() {
     <div className="App">
       
        <div className="background">
-        
+      
      <Navv />
 <div className="caption">
      <p> "You can check in <br/> but you can never check out" </p></div>
@@ -29,11 +35,11 @@ function App() {
 
  <div className="contact">
    <p>More Than a Concierge Service</p></div>
-
+ 
       <header className="App-header">
       
       </header>
-   
+  
       <Row>
        
         <Col lg={true}> <Carousel /></Col>
@@ -90,8 +96,18 @@ All nannies have top qualifications paired with the utmost dedication to the chi
       
     </Row>
     <div className="contact">
-      <p> Get In Touch... </p> </div>
- 
+      <p> Get In Touch... </p>  </div>
+
+<div className="icons"> 
+<span><a style={{ marginRight: '2rem' }} href="francisco@bycisco.co.uk"><FaEnvelope /></a></span>
+
+      <span><a style={{ marginRight: '2rem' }} href=""><FaInstagram /></a></span>
+      
+              <span><a style={{ marginRight: '2rem' }} href=""><FaFacebookSquare /></a></span>
+       
+        </div>
+  
+       
     </div>
 
     
