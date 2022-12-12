@@ -48,8 +48,8 @@
       font-family: 'Brittany Signature',
         sans-serif;
       color:#BB9983;
-      padding-top: 8rem;
-      padding-bottom: 8rem;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
       font-size: 60px;
      
 }
@@ -103,6 +103,20 @@ padding-bottom: 5rem;
 
 .icons a:hover {
   color: orange;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: -2rem;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2rem;
 }
 /*
 App {

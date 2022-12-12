@@ -11,6 +11,7 @@ import Col from 'react-bootstrap/Col';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
+import Logo2 from "./images/logo2.png";
 
 
 
@@ -99,15 +100,19 @@ All nannies have top qualifications paired with the utmost dedication to the chi
       <p> Get In Touch... </p>  </div>
 
 <div className="icons"> 
-<span><a style={{ marginRight: '2rem' }} href="francisco@bycisco.co.uk"><FaEnvelope /></a></span>
+<span><a style={{ marginRight: '4rem' }} href="francisco@bycisco.co.uk"><FaEnvelope /></a></span>
 
-      <span><a style={{ marginRight: '2rem' }} href=""><FaInstagram /></a></span>
+      <span><a style={{ marginRight: '4rem' }} href=""><FaInstagram /></a></span>
       
               <span><a style={{ marginRight: '2rem' }} href=""><FaFacebookSquare /></a></span>
-       
-        </div>
-  
-       
+              </div>
+
+  <div className="image">
+    <img src={Logo2}  height={180}
+          width={190} alt="logo"/>
+         
+         </div>
+ <h4>www.bycisco.co.uk</h4>
     </div>
 
     
