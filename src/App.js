@@ -11,7 +11,10 @@ import Col from 'react-bootstrap/Col';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
+import { FaPhone } from 'react-icons/fa';
 import Logo2 from "./images/logo2.png";
+import Form from "./Form.js";
+import Container from 'react-bootstrap/Container';
 
 
 
@@ -30,10 +33,11 @@ function App() {
 
 
      <div className="position-absolute start-50 translate-middle">
-       <Button variant="outline-light" size="lg">Get In Touch</Button>{' '}
-    </div>  
+      
+       <Button className="contact-btn" variant="outline-light" size="lg">Get In Touch</Button>{' '}
+      
 </div>
-
+</div>
  <div className="contact">
    <p>More Than a Concierge Service</p></div>
  
@@ -99,23 +103,37 @@ All nannies have top qualifications paired with the utmost dedication to the chi
     <div className="contact">
       <p> Get In Touch... </p>  </div>
 
-<div className="icons"> 
-<span><a style={{ marginRight: '4rem' }} href="francisco@bycisco.co.uk"><FaEnvelope /></a></span>
+  <Container>   
+<Form />
 
-      <span><a style={{ marginRight: '4rem' }} href=""><FaInstagram /></a></span>
+</Container> 
+<div className="icons"> 
+<span><a style={{ marginRight: '5rem' }} href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
+
+      <span><a style={{ marginRight: '5rem' }} href="https://www.instagram.com/by.cisco/"><FaInstagram /></a></span>
       
-              <span><a style={{ marginRight: '2rem' }} href=""><FaFacebookSquare /></a></span>
+                            <span><a style={{ marginRight: '2rem' }} href="tel:07515483544">< FaPhone /></a></span>
+
+
+              <span><a style={{ marginLeft: '3rem'  }}  href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
               </div>
 
   <div className="image">
     <img src={Logo2}  height={180}
           width={190} alt="logo"/>
-         
+          
          </div>
- <h4>www.bycisco.co.uk</h4>
+         <div className="website">
+www.bycisco.co.uk
     </div>
 
-    
+    <div className="natasha">
+          This website was coded by Natasha Pinder, and is {('')}
+          <span><a style={{ marginRight: '2rem' }} href="https://github.com/natashapinder00/">open-sourced</a></span>
+
+    </div>
+
+    </div>
   );
 }
 

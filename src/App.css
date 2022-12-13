@@ -24,13 +24,21 @@
 
 }
 
-.btn {
+.contact-btn {
   margin-top: 15rem;
   border-radius: 0rem;
-  border-width: 0.1rem;
-  font-size: 25px;
+  border-width: 0.4rem;
+  font-size: 30px;
   font-family: 'Lato Light', sans-serif;
   font-weight: 600;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  
+    font-size: 60px;
+    font-family: 'Lato Light', sans-serif;
+    font-weight: 600;
 }
 
 .caption {
@@ -109,14 +117,22 @@ padding-bottom: 5rem;
   display: flex;
   justify-content: center;
   
-  margin-top: -2rem;
+  margin-top: -1rem;
 
 }
 
-h4 {
+.website {
   text-align: center;
   font-size: 15px;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  letter-spacing: 0.2rem;
+}
+.natasha {
+    margin-top: 6rem;
+      margin-bottom: 2rem;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
 }
 /*
 App {
