@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
-import Boat from "./images/boat.jpg";
+
 import Villa3 from "./images/villa3.png";
 import Villa from "./images/Villa.jpg";
 import Villa4 from "./images/villa4.png";
