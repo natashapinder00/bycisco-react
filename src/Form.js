@@ -33,7 +33,7 @@ function BasicExample() {
         <Form.Label>Your Message</Form.Label>
         <Form.Control type="message" placeholder="" />
         <Button className="submit-btn" variant="outline-primary" type="submit">
-        Submit
+        Submit hello
       </Button>
       </Form.Group>
      
