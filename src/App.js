@@ -100,23 +100,15 @@ All nannies have top qualifications paired with the utmost dedication to the chi
 <Col lg={true}><Carousel4 /> </Col> 
       
     </Row>
+
+     <Container> 
     <div className="contact">
       <p> Get In Touch... </p>  </div>
 
-  <Container>   
+   
 <Form />
 
-</Container> 
-<div className="icons"> 
-<span><a style={{ marginRight: '5rem' }} href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
 
-      <span><a style={{ marginRight: '5rem' }} href="https://www.instagram.com/by.cisco/"><FaInstagram /></a></span>
-      
-                            <span><a style={{ marginRight: '2rem' }} href="tel:07515483544">< FaPhone /></a></span>
-
-
-              <span><a style={{ marginLeft: '3rem'  }}  href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
-              </div>
 
   <div className="image">
     <img src={Logo2}  height={180}
@@ -127,12 +119,22 @@ All nannies have top qualifications paired with the utmost dedication to the chi
 www.bycisco.co.uk
     </div>
 
+<div className="icons"> 
+<span><a  href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
+
+      <span> {('')}<a href="https://www.instagram.com/by.cisco/"><FaInstagram /></a></span>
+      
+      <span> {('')}<a  href="tel:07515483544">< FaPhone /></a></span>
+
+              <span> {('')}<a   href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
+              </div>
+
     <div className="natasha">
           This website was coded by Natasha Pinder, and is {('')}
-          <span><a style={{ marginRight: '2rem' }} href="https://github.com/natashapinder00/">open-sourced</a></span>
+          <span> {('')}<a style={{ marginRight: '4rem' }} href="https://github.com/natashapinder00/">open-sourced</a></span>
 
     </div>
-
+</Container> 
     </div>
   );
 }

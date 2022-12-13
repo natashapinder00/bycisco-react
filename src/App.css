@@ -95,16 +95,17 @@
       font-family: 'Lato Light', sans-serif;
 }
 
-h1 {
-  font-size: 30px;
-    font-family: 'Lato Light', sans-serif;
+form {
+max-width: 50%;
+margin-left: 25%; 
 }
+
 
 
 .icons {
 
-font-size: 40px;
-color: #BB9983;
+font-size: 42px;
+
 text-align: center;
 padding-bottom: 5rem;
 }
