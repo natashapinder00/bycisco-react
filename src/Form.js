@@ -31,9 +31,9 @@ function BasicExample() {
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Your Message</Form.Label>
-        <Form.Control type="message" placeholder="" />
+        <Form.Control type="message"  as="textarea" rows={3} placeholder="" />
         <Button className="submit-btn" variant="outline-primary" type="submit">
-        Submit hello
+        Submit 
       </Button>
       </Form.Group>
      

@@ -9,10 +9,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-color: #F7F6F3;
-  
+ 
 }
 
+.beige {
+
+    background-color:#F7F6F3;
+}
 .logo {
     position: absolute;
     max-width: 15rem;
@@ -56,8 +59,8 @@
       font-family: 'Brittany Signature',
         sans-serif;
       color:#BB9983;
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+      padding-top: 10rem;
+      padding-bottom: 10rem;
       font-size: 60px;
      
 }
@@ -67,7 +70,7 @@
   margin-right: 10rem;
   margin-bottom: 4rem;
   letter-spacing: 1.5px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 2rem;
   font-family: 'Lato Light', sans-serif;
 
@@ -79,7 +82,7 @@
   margin-right: 10rem;
   letter-spacing: 1.5px;
   line-height: 2rem;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Lato Light', sans-serif;
 
 }
@@ -91,13 +94,17 @@
       margin-right: 10rem;
       letter-spacing: 1.5px;
       line-height: 2rem;
-      font-size: 20px;
+      font-size: 18px;
       font-family: 'Lato Light', sans-serif;
 }
 
 form {
 max-width: 50%;
 margin-left: 25%; 
+margin-bottom: 8rem;
+font-family: 'Lato Light', sans-serif;
+font-size: 20px;
+
 }
 
 
@@ -105,7 +112,7 @@ margin-left: 25%;
 .icons {
 
 font-size: 42px;
-
+margin-top: 4rem;
 text-align: center;
 padding-bottom: 5rem;
 }
@@ -129,12 +136,20 @@ padding-bottom: 5rem;
   letter-spacing: 0.2rem;
 }
 .natasha {
-    margin-top: 6rem;
-      margin-bottom: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.05rem;
 }
+
+.submit-btn {
+  margin-top: 2rem;
+}
+
+
+
+
 /*
 App {
   text-align: center;

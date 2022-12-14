@@ -22,6 +22,7 @@ import Container from 'react-bootstrap/Container';
 
 
 function App() {
+
   return (
     <div className="App">
       
@@ -29,7 +30,9 @@ function App() {
       
      <Navv />
 <div className="caption">
-     <p> "You can check in <br/> but you can never check out" </p></div>
+     <p> "You can check in <br/> but you can never check out"
+     <br/>
+     - Tony Pikes - </p></div>
 
 
      <div className="position-absolute start-50 translate-middle">
@@ -38,6 +41,7 @@ function App() {
       
 </div>
 </div>
+<div className="beige">
  <div className="contact">
    <p>More Than a Concierge Service</p></div>
  
@@ -47,37 +51,48 @@ function App() {
   
       <Row>
        
-        <Col lg={true}> <Carousel /></Col>
+        
        
-        <Col>  <div className="col-text-1"> <h1>ABOUT US</h1> <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
+        <Col>  <div className="col-text"> <h1>ABOUT US</h1> <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
 
 We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
 
 At ByCisco we curate every aspect of your holiday so you don't have to. Sit back, relax, party and enjoy. 
 </div> </Col> 
+<Col lg={true}> <Carousel /></Col>
       </Row>
      
     
        <Row>
-        <Col lg={{order:1}} xs={{ order: 4 }}> <div className="col-text"> <h1>VILLAS</h1> <br/> ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
+        <Col lg={true}><Carousel2 /></Col>
+        <Col lg={true} > <div className="col-text"> 
+        
+        <h1>VILLAS</h1> 
+        <br/> ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
 
 So whether you dream of being right on the beach, having spectacular sea views, or relaxing in pure seclusion in the countryside, we have the perfect villa for you.
  </div></Col>
-       <Col lg={true}xs={{ order: 3}}><Carousel2 /></Col>
+ 
+      
       </Row>
    
        <Row>
         
-        <Col lg={true}><Carousel3 /></Col>
-        <Col lg={true}> <div className="col-text"><h1>BOATS & YACHTS</h1> <br/>There is no better way to experience Ibizas coastline, pristine beaches and sparkling Mediterranean waters than by boat.
-
+     
+        <Col lg={true}> <div className="col-text">
+        <h1>BOATS & YACHTS</h1> 
+        <br/>There is no better way to experience Ibizas coastline, pristine beaches and sparkling Mediterranean waters than by boat.
 ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From fast boats for a day of exploring, to Yachts where you can enjoy infinite days of bliss.
 </div> </Col>
+   <Col lg={true}><Carousel3 /></Col>
       </Row>
 
 
      <Row> 
-     <Col lg={true}> <div className="col-text-2"><h1>CONCIERGE SERVICES</h1> <br/>TRANSPORT<br/>
+        
+      <Col lg={true}><Carousel4 /> </Col> 
+     <Col lg={true}> <div className="col-text-2"><h1>CONCIERGE SERVICES</h1>
+     <br/>TRANSPORT<br/>
 Booking an Ibiza Chauffeur is a must in high season. Let us do the organising for you so you can enjoy a hassle-free vacation.
 <br/>
 RESTAURANTS<br/>
@@ -85,9 +100,15 @@ You might know exactly where you want to dine, if not, let us inspire you. If yo
 <br/>
 YOGA<br/>
 We have a selection of private yoga instructors, hand picked to suit your wants and needs.
-
   
-NIGHTLIFE<br/>
+</div></Col> 
+</Row>
+
+<Row> 
+ 
+     <Col lg={true}> <div className="col-text-2">
+ 
+<br/>NIGHTLIFE<br/>
 DC10, Hi, Ushuaia, Pacha, Amnesia and Destino, you name it. We will organise your entire night for the ultimate VIP experience.
 <br/>
 CHEFS<br/>
@@ -100,11 +121,11 @@ All nannies have top qualifications paired with the utmost dedication to the chi
 <Col lg={true}><Carousel4 /> </Col> 
       
     </Row>
-
+</div>
      <Container> 
     <div className="contact">
       <p> Get In Touch... </p>  </div>
-
+ 
    
 <Form />
 
@@ -120,18 +141,18 @@ www.bycisco.co.uk
     </div>
 
 <div className="icons"> 
-<span><a  href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
+<span><a style={{ marginRight: '4rem' }} href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
 
-      <span> {('')}<a href="https://www.instagram.com/by.cisco/"><FaInstagram /></a></span>
+      <span> {('')}<a  style={{ marginRight: '2rem' }}href="https://www.instagram.com/by.cisco/"><FaInstagram /></a></span>
       
-      <span> {('')}<a  href="tel:07515483544">< FaPhone /></a></span>
+      <span> {('')}<a  style={{ marginLeft: '2rem' }} href="tel:07515483544">< FaPhone /></a></span>
 
-              <span> {('')}<a   href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
+              <span> {('')}<a  style={{ marginLeft: '4rem' }}  href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
               </div>
 
     <div className="natasha">
           This website was coded by Natasha Pinder, and is {('')}
-          <span> {('')}<a style={{ marginRight: '4rem' }} href="https://github.com/natashapinder00/">open-sourced</a></span>
+          <span> {('')}<a  href="https://github.com/natashapinder00/">open-sourced</a></span>
 
     </div>
 </Container> 
