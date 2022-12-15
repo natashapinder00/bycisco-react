@@ -32,8 +32,10 @@ function App() {
 <div className="caption">
      <p> "You can check in <br/> but you can never check out"
      <br/>
-     - Tony Pikes - </p></div>
-
+     
+        
+   </p>  </div>
+ <div className="caption-2 md-8"> - Tony Pikes - </div>
 
      <div className="position-absolute start-50 translate-middle">
       
