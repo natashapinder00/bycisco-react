@@ -4,6 +4,7 @@ import Carousel from "./Carousel";
 import Carousel2 from "./Carousel2";
 import Carousel3 from './Carousel3';
 import Carousel4 from './Carousel4';
+import Carousel5 from './Carousel5';
 import Navv from "./Navv";
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
@@ -134,7 +135,7 @@ NANNIES<br/>
 All nannies have top qualifications paired with the utmost dedication to the children they care for at all times.
 
 </div></Col> 
-<Col lg={true}><Carousel4 /> </Col> 
+<Col lg={true}><Carousel5 /> </Col> 
       
     </Row>
 </div>
