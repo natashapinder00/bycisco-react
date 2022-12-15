@@ -35,11 +35,11 @@ function App() {
      
         
    </p>  </div>
- <div className="caption-2 md-8"> - Tony Pikes - </div>
+ <div className="caption-2"> - Tony Pikes - </div>
 
      <div className="position-absolute start-50 translate-middle">
       
-       <Button className="contact-btn" variant="outline-light" size="lg">Get In Touch</Button>{' '}
+       <Button className="contact-btn" variant="outline-light" size="lg" href="mailto: francisco@bycisco.co.uk">Get In Touch</Button>{' '}
       
 </div>
 </div>
@@ -55,7 +55,7 @@ function App() {
        
         
        
-        <Col>  <div className="col-text"> <h1>ABOUT US</h1> <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
+        <Col>  <div className="col-text-3"> <h2>ABOUT US</h2> <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
 
 We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
 
@@ -69,7 +69,7 @@ At ByCisco we curate every aspect of your holiday so you don't have to. Sit back
         <Col lg={true}><Carousel2 /></Col>
         <Col lg={true} > <div className="col-text"> 
         
-        <h1>VILLAS</h1> 
+        <h2>VILLAS</h2> 
         <br/> ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
 
 So whether you dream of being right on the beach, having spectacular sea views, or relaxing in pure seclusion in the countryside, we have the perfect villa for you.
@@ -82,7 +82,7 @@ So whether you dream of being right on the beach, having spectacular sea views, 
         
      
         <Col lg={true}> <div className="col-text">
-        <h1>BOATS & YACHTS</h1> 
+        <h2>BOATS & YACHTS</h2> 
         <br/>There is no better way to experience Ibizas coastline, pristine beaches and sparkling Mediterranean waters than by boat.
 ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From fast boats for a day of exploring, to Yachts where you can enjoy infinite days of bliss.
 </div> </Col>
@@ -93,30 +93,44 @@ ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From f
      <Row> 
         
       <Col lg={true}><Carousel4 /> </Col> 
-     <Col lg={true}> <div className="col-text-2"><h1>CONCIERGE SERVICES</h1>
-     <br/>TRANSPORT<br/>
+     <Col lg={true}> <div className="col-text-2"><
+      h2>CONCIERGE SERVICES</h2>
+     <br/>TRANSPORT
+     <br/>
 Booking an Ibiza Chauffeur is a must in high season. Let us do the organising for you so you can enjoy a hassle-free vacation.
 <br/>
+<br/>
 RESTAURANTS<br/>
+
 You might know exactly where you want to dine, if not, let us inspire you. If you are running late or need to re-arrange, we will happyily do that for you.
 <br/>
-YOGA<br/>
-We have a selection of private yoga instructors, hand picked to suit your wants and needs.
+<br/>
+
   
 </div></Col> 
 </Row>
 
 <Row> 
  
-     <Col lg={true}> <div className="col-text-2">
+     <Col lg={true}> <div className="col-text-1">
  
 <br/>NIGHTLIFE<br/>
+
 DC10, Hi, Ushuaia, Pacha, Amnesia and Destino, you name it. We will organise your entire night for the ultimate VIP experience.
 <br/>
+<br/>
 CHEFS<br/>
+
 Our first-class chefs use the best suppliers on the island and aim to meet you every want and need for your event, no matter how big or small.
 <br/>
+<br/>
+YOGA<br/>
+
+We have a selection of private yoga instructors, hand picked to suit your wants and needs.
+<br/>
+<br/>
 NANNIES<br/>
+
 All nannies have top qualifications paired with the utmost dedication to the children they care for at all times.
 
 </div></Col> 
