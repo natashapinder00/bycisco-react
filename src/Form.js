@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import emailjs from '@emailjs/browser';
+
+
+
+export const ContactUs = () => {
+const form = useRef();
+
+const sendEmail = (e) => {
+e.preventDefault();
+// service_id, templte_id and public key will get from Emailjs website when you create account and add template service and email service 
+emailjs.sendForm('service_rqaz3ra', 'template_8kyy9tk', form.current, 
+'LGtQQjd8k0V1ccFQ')
+  .then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
+};
+
+return (
+<form ref={form} onSubmit={sendEmail}>
+  <label>Name</label>
+  <input type="text" name="user_name" />
+  <label>Email</label>
+  <input type="email" name="user_email" />
+  <label>Message</label>
+  <textarea name="message" />
+  <input type="submit" value="Send" />
+</form>
+);
+};
 
 
 function BasicExample() {
   return (
-   
+
     <Form>
 
         
