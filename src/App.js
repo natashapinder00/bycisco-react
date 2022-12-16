@@ -31,11 +31,11 @@ function App() {
       
      <Navv />
 <div className="caption">
-     "You can check in <br/> but you can never check out"
+     <p> "You can check in <br/> but you can never check out"
      <br/>
      
         
-    </div>
+   </p>  </div>
  <div className="caption-2"> - Tony Pikes - </div>
 
      <div className="position-absolute start-50 translate-middle">
@@ -140,7 +140,7 @@ All nannies have top qualifications paired with the utmost dedication to the chi
     </Row>
 </div>
     <div className="beige">
-    <div className="contact-2">
+    <div className="contact">
      Get In Touch...  </div>
  </div>
     <Container> 
