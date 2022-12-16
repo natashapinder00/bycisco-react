@@ -27,7 +27,7 @@
 
 }
 
-.contact-btn {
+.btn {
   margin-top: 15rem;
   border-radius: 0rem;
   border-width: 0.4rem;
@@ -50,6 +50,8 @@
         sans-serif;
         color: #FFFFFF;           
         font-size: 65px;
+       
+
        
       
 }
@@ -74,6 +76,17 @@ text-align: center;
       padding-bottom: 10rem;
       font-size: 60px;
      
+}
+
+.contact-2 {
+  text-align: center;
+  font-family: 'Brittany Signature',
+    sans-serif;
+  color: #BB9983;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  font-size: 60px;
+
 }
 .col-text-1 {
   margin-top: 2rem;
@@ -122,6 +135,7 @@ text-align: center;
 
 
 form {
+  margin-top: 2rem;
 max-width: 50%;
 margin-left: 25%; 
 margin-bottom: 8rem;
@@ -147,8 +161,8 @@ padding-bottom: 5rem;
 .image {
   display: flex;
   justify-content: center;
-  
-  margin-top: -1rem;
+
+ padding-top: 10rem;
 
 }
 
@@ -166,9 +180,6 @@ padding-bottom: 5rem;
   letter-spacing: 0.05rem;
 }
 
-.submit-btn {
-  margin-top: 2rem;
-}
 
 
 

@@ -31,11 +31,11 @@ function App() {
       
      <Navv />
 <div className="caption">
-     <p> "You can check in <br/> but you can never check out"
+     "You can check in <br/> but you can never check out"
      <br/>
      
         
-   </p>  </div>
+    </div>
  <div className="caption-2"> - Tony Pikes - </div>
 
      <div className="position-absolute start-50 translate-middle">
@@ -46,7 +46,7 @@ function App() {
 </div>
 <div className="beige">
  <div className="contact">
-   <p>More Than a Concierge Service</p></div>
+   More Than a Concierge Service</div>
  
       <header className="App-header">
       
@@ -139,11 +139,11 @@ All nannies have top qualifications paired with the utmost dedication to the chi
       
     </Row>
 </div>
-     <Container> 
-    <div className="contact">
-      <p> Get In Touch... </p>  </div>
- 
-   
+    <div className="beige">
+    <div className="contact-2">
+     Get In Touch...  </div>
+ </div>
+    <Container> 
 <Form />
 
 
