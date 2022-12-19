@@ -38,10 +38,10 @@
 
 .submit-btn {
   margin-top: 1rem;
-  
-    font-size: 60px;
-    font-family: 'Lato Light', sans-serif;
-    font-weight: 600;
+  border-radius: 10rem;
+
+  font-family: 'Lato Light', sans-serif;
+  font-weight: 600;
 }
 
 .caption {
@@ -68,14 +68,14 @@ text-align: center;
 
 }
 .contact {
-    text-align: center;
-      font-family: 'Brittany Signature',
-        sans-serif;
-      color:#BB9983;
-      padding-top: 10rem;
-      padding-bottom: 10rem;
-      font-size: 60px;
-     
+  text-align: center;
+  font-family: 'Brittany Signature',
+    sans-serif;
+  color: #BB9983;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  font-size: 60px;
+
 }
 
 .contact-2 {
@@ -141,7 +141,7 @@ margin-left: 25%;
 margin-bottom: 8rem;
 font-family: 'Lato Light', sans-serif;
 font-size: 20px;
-
+color: black;
 }
 
 
