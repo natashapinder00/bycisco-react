@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-
+import Yacht3 from "./images/yacht3.png";
 import Experience from "./images/experience.jpg";
 import Experience2 from "./images/experience2.png";
 import Experience3 from "./images/experience3.png";
@@ -15,7 +15,7 @@ function UncontrolledExample() {
       
           <img
           className="d-block w-100"
-          src={Experience}
+          src={Yacht3}
           alt="First slide"
         />
         
@@ -25,7 +25,7 @@ function UncontrolledExample() {
         
         <img
           className="d-block w-100"
-          src={Experience2}  
+          src={Experience}  
           alt="Second slide"
         />
       </Carousel.Item>

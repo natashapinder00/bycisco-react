@@ -139,10 +139,10 @@ All nannies have top qualifications paired with the utmost dedication to the chi
       
     </Row>
 </div>
-    <div className="beige">
-    <div className="contact">
+  
+    <div className="contact-2">
      Get In Touch...  </div>
- </div>
+
     <Container> 
 <Form />
 
