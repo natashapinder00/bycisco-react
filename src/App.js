@@ -158,13 +158,13 @@ www.bycisco.co.uk
     </div>
 
 <div className="icons"> 
-<span><a style={{ marginRight: '4rem' }} href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
+<span><a style={{ display:'inline-flex', alignItems: 'center' }} href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
 
-      <span> {('')}<a  style={{ marginRight: '2rem' }}href="https://www.instagram.com/by.cisco/"><FaInstagram /></a></span>
+      <span> {('')}<a  style={{ display:'inline-flex', alignItems: 'center' }}href="https://www.instagram.com/by.cisco/"><FaInstagram /></a></span>
       
-      <span> {('')}<a  style={{ marginLeft: '2rem' }} href="tel:07515483544">< FaPhone /></a></span>
+      <span> {('')}<a  style={{display:'inline-flex', alignItems: 'center'}} href="tel:07515483544">< FaPhone /></a></span>
 
-              <span> {('')}<a  style={{ marginLeft: '4rem' }}  href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
+              <span> {('')}<a  style={{ display:'inline-flex', alignItems: 'center' }}  href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
               </div>
 
     <div className="natasha">
