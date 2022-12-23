@@ -56,19 +56,19 @@ function App() {
        
         
        
-        <Col>  <div className="col-text-3"> <h2>ABOUT US</h2> <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
+        <Col lg={true} >  <div className="col-text-3"> <h2>ABOUT US</h2> <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
 
 <br/><br/>We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
 
 <br/><br/>At ByCisco we curate every aspect of your holiday so you don't have to. Sit back, relax, party and enjoy. 
 </div> </Col> 
-<Col lg={true}> <Carousel /></Col>
+<Col lg={true} ><Carousel /></Col>
       </Row>
      
     
        <Row>
-        <Col lg={true}><Carousel2 /></Col>
-        <Col lg={true} > <div className="col-text"> 
+        <Col lg={true} ><Carousel2 /></Col>
+        <Col lg={true}  > <div className="col-text"> 
         
         <h2>VILLAS</h2> 
         <br/> ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
@@ -113,7 +113,7 @@ You might know exactly where you want to dine, if not, let us inspire you. If yo
 
 <Row> 
  
-     <Col lg={true}> <div className="col-text-1">
+     <Col lg={true} > <div className="col-text-1">
  
 <br/>NIGHTLIFE<br/>
 
