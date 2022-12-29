@@ -65,7 +65,7 @@ function BasicExample() {
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Your Message</Form.Label>
         <Form.Control type="message"  as="textarea" rows={3} placeholder="" />
-        <Button className="submit-btn" variant="outline-primary" type="submit">
+        <Button className="submit-btn" variant="outline-dark" size="lg" type="submit">
         Submit 
       </Button>
       </Form.Group>
