@@ -14,7 +14,7 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
 import Logo2 from "./images/logo2.png";
-import Form from "./Form.js";
+
 import Container from 'react-bootstrap/Container';
 
 
@@ -143,21 +143,9 @@ All nannies have top qualifications paired with the utmost dedication to the chi
   
     <div className="contact-2">
      Get In Touch...  </div>
-
+   
     <Container> 
-<Form />
-
-
-
-
-  <div className="image">
-    <img src={Logo2}  height={180}
-          width={190} alt="logo"/>
-          
-         </div>
-         <div className="website">
-www.bycisco.co.uk
-    </div>
+    
 
 <div className="icons"> 
 <span><a style={{ display:'inline-flex', alignItems: 'center' }} href="mailto: francisco@bycisco.co.uk"><FaEnvelope /></a></span>
@@ -168,6 +156,26 @@ www.bycisco.co.uk
 
               <span> {('')}<a  style={{ display:'inline-flex', alignItems: 'center' }}  href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
               </div>
+
+<div className="website">
+    
+Call  +34 682 843 171
+< br/>
+< br/>
+WhatsApp 
++447 798 794 660
+    </div>
+
+  <div className="image">
+    <img src={Logo2}  height={180}
+          width={190} alt="logo"/>
+          
+         </div>
+         <div className="website">
+www.bycisco.co.uk
+    </div>
+
+
 
     <div className="natasha">
           This website was coded by Natasha Pinder, and is {('')}
