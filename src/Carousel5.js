@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Beach from "./images/beach.jpg";
 import Experience2 from "./images/experience2.png";
 import Yacht2 from "./images/yacht2.png";
-import Experience3 from "./images/experience3.png";
+
 
 function UncontrolledExample() {
   return (
