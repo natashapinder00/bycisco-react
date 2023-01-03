@@ -57,11 +57,12 @@ function App() {
        
         
        
-        <Col lg={true} >  <div className="col-text-3"> <h2>ABOUT US</h2> <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
+        <Col lg={true} >  <div className="col-text-3"> <h4>ABOUT US</h4> 
+        <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
 
 <br/><br/>We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
 
-<br/><br/>At ByCisco we curate every aspect of your holiday so you don't have to. Sit back, relax, party and enjoy. 
+<br/>At ByCisco we curate every aspect of your holiday so you don't have to. Sit back, relax, party and enjoy. 
 </div> </Col> 
 <Col lg={true} ><Carousel /></Col>
       </Row>
@@ -71,7 +72,7 @@ function App() {
         <Col lg={true} ><Carousel2 /></Col>
         <Col lg={true}  > <div className="col-text"> 
         
-        <h2>VILLAS</h2> 
+        <h4>VILLAS</h4> 
         <br/> ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
 
 <br/><br/>So whether you dream of being right on the beach, having spectacular sea views, or relaxing in pure seclusion in the countryside, we have the perfect villa for you.
@@ -84,8 +85,8 @@ function App() {
         
      
         <Col lg={true}> <div className="col-text">
-        <h2>BOATS & YACHTS</h2> 
-        <br/>There is no better way to experience Ibizas coastline, pristine beaches and sparkling Mediterranean waters than by boat.
+        <h4>BOATS & YACHTS</h4> 
+        <br/>Famous for its lively nightlife and sandy beaches, our yacht charter advisors will help design your perfect charter experience to discover the Balearics Islands of Ibiza and Formentera.
 <br/><br/>ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From fast boats for a day of exploring, to Yachts where you can enjoy infinite days of bliss.
 </div> </Col>
    <Col lg={true}><Carousel3 /></Col>
@@ -95,8 +96,8 @@ function App() {
      <Row> 
         
       <Col lg={true}><Carousel4 /> </Col> 
-     <Col lg={true}> <div className="col-text-2"><
-      h2>CONCIERGE SERVICES</h2>
+     <Col lg={true}> <div className="col-text-2">
+      <h4>CONCIERGE SERVICES</h4>
      <br/>TRANSPORT
      <br/>
 Booking an Ibiza Chauffeur is a must in high season. Let us do the organising for you so you can enjoy a hassle-free vacation.
