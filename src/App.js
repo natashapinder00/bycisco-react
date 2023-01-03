@@ -168,8 +168,8 @@ WhatsApp
     </div>
 
   <div className="image">
-    <img src={Logo2}  height={180}
-          width={190} alt="logo"/>
+    <img src={Logo2}  height={130}
+          width={130} alt="logo"/>
           
          </div>
          <div className="website">
