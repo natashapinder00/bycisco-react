@@ -17,11 +17,19 @@
 
     background-color:#F7F6F3;
 }
+
+@media screen and (max-width: 900px) {
+  #Navv {
+    width: 190px;
+  }
+}
+
 .logo {
     position: absolute;
     max-width: 15rem;
 
 }
+
 .logo2 {
   position: absolute;
   max-width: 15rem;

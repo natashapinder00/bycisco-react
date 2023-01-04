@@ -95,8 +95,8 @@ function App() {
 
      <Row> 
         
-      <Col lg={true} xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}><Carousel4 /> </Col> 
-     <Col lg={true} xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}> <div className="col-text-2">
+      <Col lg={true} xs={{ span: 12, order: 7 }} md={{ span: 6, order: 8 }}><Carousel4 /> </Col> 
+     <Col lg={true} xs={{ span: 12, order: 8 }} md={{ span: 6, order: 7 }}> <div className="col-text-2">
       <h4>CONCIERGE SERVICES</h4>
      <br/>TRANSPORT
      <br/>
@@ -115,7 +115,7 @@ You might know exactly where you want to dine, if not, let us inspire you. If yo
 
 <Row> 
  
-     <Col lg={true} > <div className="col-text-1">
+     <Col lg={true} xs={{ span: 12, order: 5 }} md={{ span: 6, order: 6 }} > <div className="col-text-1">
  
 <br/>NIGHTLIFE<br/>
 
@@ -137,7 +137,7 @@ NANNIES<br/>
 All nannies have top qualifications paired with the utmost dedication to the children they care for at all times.
 
 </div></Col> 
-<Col lg={true}><Carousel5 /> </Col> 
+<Col lg={true} xs={{ span: 12, order: 5 }} md={{ span: 6, order: 6 }}><Carousel5 /> </Col> 
       
     </Row>
 </div>
