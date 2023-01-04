@@ -57,20 +57,20 @@ function App() {
        
         
        
-        <Col lg={true} >  <div className="col-text-3"> <h4>ABOUT US</h4> 
+        <Col lg={true} xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>  <div className="col-text-3"> <h4>ABOUT US</h4> 
         <br/> With over 15 years experience in the Hospitality and Concierge industry, ByCisco was created.
 
 <br/><br/>We are here to give you access to world-class villas, yachts and the most exclusive experiences in Ibiza.
 
 <br/>At ByCisco we curate every aspect of your holiday so you don't have to. Sit back, relax, party and enjoy. 
 </div> </Col> 
-<Col lg={true} ><Carousel /></Col>
+<Col lg={true}xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }} ><Carousel /></Col>
       </Row>
      
     
        <Row>
-        <Col lg={true} ><Carousel2 /></Col>
-        <Col lg={true}  > <div className="col-text"> 
+        <Col lg={true} xs={{ span: 12, order: 3 }} md={{ span: 6, order: 3 }}><Carousel2 /></Col>
+        <Col lg={true} xs={{ span: 12, order: 4 }} md={{ span: 6, order: 4 }}> <div className="col-text"> 
         
         <h4>VILLAS</h4> 
         <br/> ByCisco Lifestyle boasts a large portfolio of unique villas across the island. From beautiful modern architecture to the classic nuance of exotic elegance.
@@ -84,19 +84,19 @@ function App() {
        <Row>
         
      
-        <Col lg={true}> <div className="col-text">
+        <Col lg={true} xs={{ span: 12, order: 5 }} md={{ span: 6, order: 6 }}> <div className="col-text">
         <h4>BOATS & YACHTS</h4> 
         <br/>Famous for its lively nightlife and sandy beaches, our yacht charter advisors will help design your perfect charter experience to discover the Balearics Islands of Ibiza and Formentera.
 <br/><br/>ByCisco has the latest Yachts in design, technology and comfort in Ibiza. From fast boats for a day of exploring, to Yachts where you can enjoy infinite days of bliss.
 </div> </Col>
-   <Col lg={true}><Carousel3 /></Col>
+   <Col lg={true} xs={{ span: 12, order: 6 }} md={{ span: 6, order: 5 }}><Carousel3 /></Col>
       </Row>
 
 
      <Row> 
         
-      <Col lg={true}><Carousel4 /> </Col> 
-     <Col lg={true}> <div className="col-text-2">
+      <Col lg={true} xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}><Carousel4 /> </Col> 
+     <Col lg={true} xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}> <div className="col-text-2">
       <h4>CONCIERGE SERVICES</h4>
      <br/>TRANSPORT
      <br/>
