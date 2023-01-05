@@ -18,6 +18,17 @@
     background-color:#F7F6F3;
 }
 
+.contact {
+  text-align: center;
+  font-family: 'Brittany Signature',
+    sans-serif;
+  color: #BB9983;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  font-size: 50px;
+
+}
+
 @media screen and (max-width: 900px) {
   #Navv {
     width: 190px;
@@ -68,27 +79,9 @@ text-align: center;
 
 
 }
-.contact {
-  text-align: center;
-  font-family: 'Brittany Signature',
-    sans-serif;
-  color: #BB9983;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  font-size: 50px;
 
-}
 
-.contact-2 {
-  text-align: center;
-  font-family: 'Brittany Signature',
-    sans-serif;
-  color: #BB9983;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  font-size: 50px;
 
-}
 .col-text-1 {
 margin-top: 0rem;
   margin-left: 6rem;
@@ -161,6 +154,17 @@ color: black;
 }
 
 */
+
+.contact-2 {
+  text-align: center;
+  font-family: 'Brittany Signature',
+    sans-serif;
+  color: #BB9983;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 50px;
+
+}
 
 .icons {
 
