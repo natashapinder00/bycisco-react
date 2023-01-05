@@ -84,9 +84,12 @@ text-align: center;
 
 .col-text-1 {
 margin-top: 0rem;
+/*
   margin-left: 6rem;
   margin-right: 10rem;
+   */
   margin-bottom: 4rem;
+ 
   letter-spacing: 1.5px;
   font-size: 14px;
   line-height: 1.8rem;
@@ -100,9 +103,11 @@ margin-top: 0rem;
 
 .col-text {
   margin-top: 2rem;
+  /*
   margin-left: 6rem;
   margin-bottom: 0rem;
   margin-right: 8rem;
+  */
   letter-spacing: 1.5px;
   line-height: 2rem;
   font-size: 14px;
@@ -116,9 +121,11 @@ margin-top: 0rem;
 
 .col-text-2 {
     margin-top: 2rem;
+    /*
       margin-left: 6rem;
       margin-bottom: 0rem;
       margin-right: 8rem;
+      */
       letter-spacing: 1.5px;
       line-height: 2rem;
       font-size: 14px;
@@ -128,10 +135,13 @@ margin-top: 0rem;
   font-weight: 900;
 }
 .col-text-3 {
-  margin-top: 2rem;
-      margin-left: 6rem;
+    margin-top: 2rem;
+  /*
+
+    margin-left: 6rem;
       margin-bottom: 4rem;
       margin-right: 8rem;
+     */
       letter-spacing: 1.5px;
       line-height: 1.8rem;
       font-size: 15px;
@@ -142,7 +152,7 @@ margin-top: 0rem;
   font-weight: 900;
 }
 
-/*
+
 form {
 margin-top: 2rem;
 max-width: 50%;
@@ -153,7 +163,7 @@ font-size: 20px;
 color: black;
 }
 
-*/
+
 
 .contact-2 {
   text-align: center;

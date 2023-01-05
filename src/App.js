@@ -52,7 +52,7 @@ function App() {
       <header className="App-header">
       
       </header>
-  
+  <Container>
       <Row>
        
         
@@ -105,7 +105,7 @@ Booking an Ibiza Chauffeur is a must in high season. Let us do the organising fo
 <br/>
 RESTAURANTS<br/>
 
-You might know exactly where you want to dine, if not, let us inspire you. If you are running late or need to re-arrange, we will happyily do that for you.
+You might know exactly where you want to dine, if not, let us inspire you. If you are running late or need to re-arrange, we will happyily do that for you...
 <br/>
 <br/>
 
@@ -140,6 +140,7 @@ All nannies have top qualifications paired with the utmost dedication to the chi
 <Col lg={true} xs={{ span: 12, order: 5 }} md={{ span: 6, order: 6 }}><Carousel5 /> </Col> 
       
     </Row>
+    </Container>
 </div>
   
     <div className="contact-2">
