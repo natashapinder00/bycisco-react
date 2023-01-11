@@ -106,8 +106,7 @@ Booking an Ibiza Chauffeur is a must in high season. Let us do the organising fo
 RESTAURANTS<br/>
 
 You might know exactly where you want to dine, if not, let us inspire you. If you are running late or need to re-arrange, we will happyily do that for you...
-<br/>
-<br/>
+
 
   
 </div></Col> 
@@ -115,7 +114,7 @@ You might know exactly where you want to dine, if not, let us inspire you. If yo
 
 <Row> 
  
-     <Col lg={true} xs={{ span: 12, order: 5 }} md={{ span: 6, order: 6 }} > <div className="col-text-1">
+     <Col lg={true} xs={{ span: 12, order: 5 }} md={{ span: 6, order: 6 }} > <div className="col-text-4">
  
 <br/>NIGHTLIFE<br/>
 

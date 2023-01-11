@@ -84,12 +84,11 @@ text-align: center;
 
 .col-text-1 {
 margin-top: 0rem;
+  margin-bottom: 2rem;
 /*
   margin-left: 6rem;
   margin-right: 10rem;
    */
-  margin-bottom: 4rem;
- 
   letter-spacing: 1.5px;
   font-size: 14px;
   line-height: 1.8rem;
@@ -103,6 +102,7 @@ margin-top: 0rem;
 
 .col-text {
   margin-top: 2rem;
+    margin-bottom: 2rem;
   /*
   margin-left: 6rem;
   margin-bottom: 0rem;
@@ -121,6 +121,7 @@ margin-top: 0rem;
 
 .col-text-2 {
     margin-top: 2rem;
+    
     /*
       margin-left: 6rem;
       margin-bottom: 0rem;
@@ -136,6 +137,7 @@ margin-top: 0rem;
 }
 .col-text-3 {
     margin-top: 2rem;
+      margin-bottom: 2rem;
   /*
 
     margin-left: 6rem;
@@ -152,7 +154,25 @@ margin-top: 0rem;
   font-weight: 900;
 }
 
+.col-text-4 {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  /*
+  margin-left: 6rem;
+  margin-right: 10rem;
+   */
 
+
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  line-height: 1.8rem;
+  font-family: 'Lato Light', sans-serif;
+
+}
+
+.col-text-4:hover {
+  font-weight: 900;
+}
 form {
 margin-top: 2rem;
 max-width: 50%;

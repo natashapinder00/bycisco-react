@@ -6,7 +6,9 @@ import logo from "./images/logo.png"
 function BrandExample() {
   return (
     <>
-      <Navbar bg="transparent" variant="transparent">
+      <Navbar  bg="transparent" variant="transparent">
+         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -16,8 +18,10 @@ function BrandExample() {
               height="200"
               className="d-inline-block align-top"
             />{' '}
+           
           </Navbar.Brand>
         </Container>
+         </Navbar.Collapse>
       </Navbar>
     </>
   );
