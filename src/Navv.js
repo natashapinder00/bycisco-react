@@ -10,7 +10,7 @@ function BrandExample() {
          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Container>
-          <Navbar.Brand href="#home">
+         <Navbar className="justify-content-center">
             <img
               alt="logo"
               src={logo}
@@ -19,7 +19,7 @@ function BrandExample() {
               className="d-inline-block align-top"
             />{' '}
            
-          </Navbar.Brand>
+          </Navbar>
         </Container>
          </Navbar.Collapse>
       </Navbar>
