@@ -105,7 +105,7 @@ Booking an Ibiza Chauffeur is a must in high season. Let us do the organising fo
 <br/>
 RESTAURANTS<br/>
 
-You might know exactly where you want to dine, if not, let us inspire you. If you are running late or need to re-arrange, we will happyily do that for you...
+You might know exactly where you want to dine, If not, let us organise the reservation on your behalf.
 
 
   
