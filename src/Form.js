@@ -1,7 +1,7 @@
 import React from "react"
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
       </Form.Group>
 
       <Button variant="primary" type="submit">
-        Submit this form (release the hounds out!)
+        Submit
       </Button>
     </Form>
    
