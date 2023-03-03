@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import Form from "./Form.js";
 import Carousel from "./Carousel";
 import Carousel2 from "./Carousel2";
 import Carousel3 from './Carousel3';
@@ -157,7 +158,7 @@ All nannies have top qualifications paired with the utmost dedication to the chi
 
               <span> {('')}<a  style={{ display:'inline-flex', alignItems: 'center' }}  href="https://www.facebook.com/ciscoagomes"><FaFacebookSquare /></a></span>
               </div>
-
+< Form />
 <div className="website">
     
 Call  +34 682 843 171
