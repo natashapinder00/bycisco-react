@@ -9,13 +9,13 @@ export default function Home() {
   return <div>
 
 
-    <Form name="contact v2"
+    <Form name="contact v1"
       method="post"
       data-netlify="true"
       onSubmit="submit"
       data-netlify-honeypot="bot-field"
     >
-      <input type="hidden" name="form-name" value="contact v2" />
+      <input type="hidden" name="form-name" value="contact v1" />
 
       
       <Form.Group className="mb-3" controlId="formBasicFirstName">
