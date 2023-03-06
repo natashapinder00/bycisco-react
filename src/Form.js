@@ -45,15 +45,8 @@ export default function Home() {
         Submit
       </Button>
     </Form>
-   
-    return (
- 
-  
-);
-
     
    
-
   </div>
 }
 
