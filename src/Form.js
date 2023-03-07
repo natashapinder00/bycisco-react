@@ -21,17 +21,17 @@ export default function Home() {
       
       <Form.Group className="mb-3" controlId="formBasicFirstName">
         <Form.Label>First Name</Form.Label>
-        <Form.Control required as="textarea" type="first" name="first" />
+        <Form.Control type="text" name="first" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicLastName">
         <Form.Label>Last Name</Form.Label>
-        <Form.Control  required as="textarea" type="last" name="last" />
+        <Form.Control type="text" name="last" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
-        <Form.Control required as="textarea" type="email" name="email" placeholder="Enter email" />
+        <Form.Control type="text" name="email" placeholder="Enter email" />
         <Form.Text className="text-muted">
           We'll never share your email with anyone else.
         </Form.Text>
@@ -40,7 +40,8 @@ export default function Home() {
 
       <Form.Group className="mb-3" controlId="formBasicComments">
         <Form.Label>Any Comments?</Form.Label>
-        <Form.Control required as="textarea" type="comments" name="comments" />
+       
+        <Form.Control required as="textarea" type="text" name="comments" />
       </Form.Group>
 
       <Button variant="primary" type="submit">
