@@ -26,7 +26,7 @@ export default function Home() {
 
       <Form.Group className="mb-3" controlId="formBasicLastName">
         <Form.Label>Last Name</Form.Label>
-        <Form.Control type="text" name="last" />
+        <Form.Control inputType="text" name="last" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
