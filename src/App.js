@@ -1,6 +1,8 @@
 import React from "react";
 import './App.css';
+/*
 import Form from "./Form";
+*/
 import Carousel from "./Carousel";
 import Carousel2 from "./Carousel2";
 import Carousel3 from './Carousel3';
@@ -142,7 +144,9 @@ All nannies have top qualifications paired with the utmost dedication to the chi
     </Row>
     </Container>
 </div>
- <Form />
+
+
+
     <div className="contact-2">
      Get In Touch...  </div>
    
