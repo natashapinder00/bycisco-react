@@ -10,9 +10,10 @@ export default function Home() {
 
 
     <Form name="contact v1"
-      method="post"
+      method="POST"
       data-netlify="true"
       onSubmit="submit"
+      data-netlify-recaptcha="true"
       data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="form-name" value="contact v1" />
