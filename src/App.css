@@ -21,7 +21,7 @@
 .contact {
   text-align: center;
   font-family: 'Brittany Signature',
-    sans-serif;
+  sans-serif;
   color: #BB9983;
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -169,6 +169,29 @@ margin-top: 0rem;
   font-family: 'Lato Light', sans-serif;
 
 }
+
+.col-text-5 {
+  margin-top: 0rem;
+    margin-bottom: 2rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+  /*
+    margin-left: 6rem;
+    margin-right: 10rem;
+     */
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    line-height: 1.8rem;
+    text-align:justify;
+    font-family: 'Lato Light', sans-serif;
+  
+  }
+
+  .col-text-5:hover {
+    font-weight: 900;
+  }
 
 .col-text-4:hover {
   font-weight: 900;

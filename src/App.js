@@ -139,9 +139,36 @@ NANNIES<br/>
 All nannies have top qualifications paired with the utmost dedication to the children they care for at all times.
 
 </div></Col> 
+
 <Col lg={true} xs={{ span: 12, order: 5 }} md={{ span: 6, order: 6 }}><Carousel5 /> </Col> 
       
     </Row>
+    <div className="contact-2">
+    Boat Charter Blog  </div>
+     <div className="col-text-5">
+
+   
+
+Ibiza is a popular destination for boat charters and yacht rentals, especially during the summer months. It offers a vibrant and exciting atmosphere with beautiful beaches, crystal-clear waters, and lively parties. Formentera, a nearby island, is also a favorite spot for visitors due to its stunning beaches and relaxed ambiance. <br/>
+<br/>Whether you're looking to relax, party, or enjoy the beauty of the Mediterranean Sea, a boat day charter with friends can be a fantastic way to spend your holidays in Ibiza.
+
+During your yacht rental, you can explore the coastlines of Ibiza and Formentera, stopping at various beaches and coves along the way. Some popular spots to visit include Cala Jondal, Salinas Beach, Es Vedrà, and the famous Blue Marlin Ibiza. You can anchor at these locations, swim in the crystal-clear waters, and soak up the sun on the deck of your yacht.
+
+Many yacht charters offer drinks and catering services, allowing you to enjoy refreshing beverages and delicious meals while onboard. You can also bring your own drinks and snacks to personalize your experience.<br/>
+<br/>
+ Some charters provide professional crews who can take care of navigation, ensuring a safe and enjoyable trip.
+
+Ibiza is known for its vibrant nightlife, and there are plenty of opportunities to party during your boat charter. You can anchor near beach clubs such as Ushuaïa Ibiza Beach Hotel or Pacha and enjoy the music, dancing, and lively atmosphere. Ibiza's famous sunset parties are also a must-see, with spots like Café del Mar and Mambo offering stunning views and great music.
+
+<br/>
+<br/>Of course, if you prefer a more relaxed experience, you can simply unwind on the yacht, bask in the Mediterranean sun, and take in the breathtaking scenery. With friends, you can enjoy quality time together, chat, sunbathe, and create lasting memories.
+
+When planning your boat charter, it's essential to book in advance, especially during the busy summer season, to ensure availability and secure the type of yacht that suits your needs and preferences. Additionally, make sure to check local regulations and guidelines regarding safety, anchoring, and environmental protection to have a responsible and respectful experience.
+
+<br/>
+<br/>Overall, a boat day charter with friends in Ibiza offers a unique opportunity to combine relaxation, partying, and exploration in one unforgettable summer holiday.
+     </div>
+    
     </Container>
 </div>
 
