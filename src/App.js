@@ -145,9 +145,13 @@ All nannies have top qualifications paired with the utmost dedication to the chi
     </Row>
     <div className="contact-2">
     Boat Charter Blog  </div>
-    <Col lg={true} xs={{ span: 12 }} md={{ span: 6 }}> <div className="col-text-5">
 
-   
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center text-md-left p-2">
+        <div className="col-text-5">
+       
 
 Ibiza is a popular destination for boat charters and yacht rentals, especially during the summer months. It offers a vibrant and exciting atmosphere with beautiful beaches, crystal-clear waters, and lively parties. Formentera, a nearby island, is also a favorite spot for visitors due to its stunning beaches and relaxed ambiance. <br/>
 <br/>Whether you're looking to relax, party, or enjoy the beauty of the Mediterranean Sea, a boat day charter with friends can be a fantastic way to spend your holidays in Ibiza.
@@ -168,7 +172,9 @@ When planning your boat charter, it's essential to book in advance, especially d
 <br/>
 <br/>Overall, a boat day charter with friends in Ibiza offers a unique opportunity to combine relaxation, partying, and exploration in one unforgettable summer holiday.
      </div>
-     </Col> 
+     </div>
+    </div>
+</div>
     </Container>
 </div>
 
