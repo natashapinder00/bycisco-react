@@ -145,7 +145,7 @@ All nannies have top qualifications paired with the utmost dedication to the chi
     </Row>
     <div className="contact-2">
     Boat Charter Blog  </div>
-     <div className="col-text-5">
+    <Col lg={true} xs={{ span: 12 }} md={{ span: 6 }}> <div className="col-text-5">
 
    
 
@@ -168,7 +168,7 @@ When planning your boat charter, it's essential to book in advance, especially d
 <br/>
 <br/>Overall, a boat day charter with friends in Ibiza offers a unique opportunity to combine relaxation, partying, and exploration in one unforgettable summer holiday.
      </div>
-    
+     </Col> 
     </Container>
 </div>
 

@@ -171,12 +171,8 @@ margin-top: 0rem;
 }
 
 .col-text-5 {
-  margin-top: 0rem;
-    margin-bottom: 2rem;
-    padding-right: 15rem;
-    padding-left: 15rem;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   /*
     margin-left: 6rem;
     margin-right: 10rem;
@@ -184,7 +180,7 @@ margin-top: 0rem;
     letter-spacing: 1.5px;
     font-size: 14px;
     line-height: 1.8rem;
-    text-align:justify;
+    text-align: justify;
     font-family: 'Lato Light', sans-serif;
   
   }
