@@ -173,10 +173,10 @@ margin-top: 0rem;
 .col-text-5 {
   padding-top: 4rem;
   padding-bottom: 2rem;
-  /*
-    margin-left: 6rem;
-    margin-right: 10rem;
-     */
+  
+    margin-left: 2rem;
+    margin-right: 2rem;
+     
     letter-spacing: 1.5px;
     font-size: 14px;
     line-height: 1.8rem;
